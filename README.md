@@ -37,7 +37,7 @@ If you want to recreate this, pay attention to the voltages. It's a mix of 5V an
 The whole thing runs on **CircuitPython**. 
 
 - **Audio setup:** It plays 16-bit PCM WAV files (mono) loaded from `/sd/sounds/`. 
-- **The Loop:** It doesn't just play random files. It loops through my coworkers in a fixed order (Steven -> Eybruh -> Minh -> Eddy, Josef, Umar, Zau) so everyone gets their turn to yell at me.
+- **The Loop:** It doesn't just play random files. It loops through my coworkers in a fixed order so everyone gets their turn to yell at me.
 - **Sensor Calibration:** Analog raw values are mapped to percentages. (Dry = roughly 52000, Wet = 25000).
 - **Hissing fix:** I2S amps tend to hiss when idle. To fix this, the code explicitly calls `i2s.stop()` and `mixer.deinit()` right after a sound finishes. Dead silent during pauses.
 
