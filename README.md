@@ -49,6 +49,6 @@ The whole thing runs on **CircuitPython**.
 ---
 
 ## ⚖️ Copyright & License
-© 2026 [Dein Name]. All rights reserved. 
+© 2026 Shirose Ahmad. All rights reserved. 
 
 This repository and its contents are public for portfolio and demonstration purposes only. You are welcome to read the code and get inspired, but copying, modifying, distributing, or using this project commercially without explicit permission is strictly prohibited.
