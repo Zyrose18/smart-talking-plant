@@ -29,6 +29,9 @@ If you want to recreate this, pay attention to the voltages. It's a mix of 5V an
 - DIN -> GP2
 - *Important:* I tied the **GAIN pin directly to GND**. This drops the gain to -9dB and prevents awful audio clipping. Don't skip this or your ears will bleed.
 
+- <img width="975" height="677" alt="image" src="https://github.com/user-attachments/assets/fe5fa84b-a162-4cc4-9c31-cdbf504abacc" />
+
+
 **Moisture Sensor - 3.3V**
 - Powered via 3V3 OUT and GND (needs to be 3.3V, don't use 5V here)
 - AOUT -> GP26 (A0)
@@ -45,6 +48,7 @@ The whole thing runs on **CircuitPython**.
 - [x] Breadboard prototype & software logic
 - [ ] Design a carrier PCB in EasyEDA to finally get rid of the jumper wire mess.
 - [ ] 3D print a proper custom enclosure for the electronics (will need some help with the CAD design to make room for the USB port and speaker grill).
+
 
 ---
 
