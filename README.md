@@ -33,6 +33,7 @@ If you want to recreate this, pay attention to the voltages. It's a mix of 5V an
 - Powered via 3V3 OUT and GND (needs to be 3.3V, don't use 5V here)
 - AOUT -> GP26 (A0)
 
+![Schaltplan]
 - <img width="975" height="677" alt="image" src="https://github.com/user-attachments/assets/fe5fa84b-a162-4cc4-9c31-cdbf504abacc" />
 
 ## Software details
